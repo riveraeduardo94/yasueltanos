@@ -6,18 +6,50 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
-  <div class="container border border-success border-1 rounded-4">
-    <h1>Class container</h1>
+  <body>
+
+    <!--3 columnas idénticas usando col-3-->
+  <div class="container border border-success border- text-center my-5">
+    <div class="row">
+      <div class="col border border-primary">col</div>
+      <div class="col border border-secondary">col</div>
+      <div class="col border border-danger">col</div>
+    </div>
   </div>
-  <div class="container-md border border-primary border-1 rounded-4">
-    <h1>Class container-md</h1>
+  <!--3 columnas idénticas usando col-4-->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-4 border border-primary">col-4</div>
+      <div class="col-4 border border-secondary">col-4</div>
+      <div class="col-4 border border-danger">col-4</div>
+    </div>
   </div>
-  <div class="container-fluid border border-danger border-1 rounded-4">
-    <h1>Class container-fluid</h1>
+  <!--2 columnas idénticas y una desigual-->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-2 border border-primary">col-2</div>
+      <div class="col-8 border border-secondary">col-8</div>
+      <div class="col-2 border border-danger">col-2</div>
+    </div>
+  <!--2 columnas idénticas y una desigual con breakpoint-->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-2 border border-primary">col-2</div>
+      <div class="col-md-8 border border-secondary">col-8</div>
+      <div class="col-md-2 border border-danger">col-2</div>
+    </div>
+  <!--2 columnas idénticas y una desigual con 2 breakpoints-->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-2 col-sm-4 border border-primary">md-2 sm-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eos eum animi reprehenderit non, quia vero sed ut ab asperiores ullam sint aliquam corrupti unde. Vitae cumque assumenda repudiandae. Rem.</div>
+      <div class="col-md-8 col-sm-8 border border-secondary">md-8 sm-8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque reiciendis dolore temporibus omnis ullam facilis maxime enim excepturi quos id sequi eligendi eaque quia beatae, veritatis explicabo, quas laborum.
+      Magni aliquid beatae veniam facere sed possimus et voluptates sunt nemo rerum? Ducimus asperiores corrupti quaerat, dicta explicabo, a harum quasi dolor cupiditate recusandae amet vel perferendis nisi, atque adipisci.
+      Fuga, voluptas eius quasi placeat doloremque nulla corporis magnam, consectetur natus est magni numquam soluta rerum. Ducimus soluta qui a eaque mollitia, aperiam id labore perferendis quaerat, quia doloremque ut?</div>
+      <div class="col-md-2 col-sm-12 border border-danger">md-2 sm-12 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus quia commodi iure id voluptatibus saepe, neque earum blanditiis fugiat perferendis iste ex, fuga eius culpa magni molestias incidunt itaque?
+      Repellendus tenetur, praesentium quisquam explicabo dignissimos eaque obcaecati adipisci possimus dolorum. Aperiam velit, quibusdam id voluptate autem dolorem fugit? Voluptates minus minima maxime aliquid officiis praesentium quidem quo quia aliquam!</div>
+    </div>
   </div>
 
-  <body>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
